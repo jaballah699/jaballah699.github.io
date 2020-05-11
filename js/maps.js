@@ -27,18 +27,10 @@
 
       // Locations
       var locations = [
-        [ locationData('single-job-page.html','images/company-logo-01.png',"Hexagon",'Bilingual Event Support Specialist', 'verified'), 37.788181, -122.461270, 5, ''],
-        [ locationData('single-job-page.html','images/company-logo-05.png',"Laxo",'Competition Law Officer', 'not-verified'), 37.750812, -122.471934, 2, ''],
-        [ locationData('single-job-page.html','images/company-logo-02.png',"Coffee",'Barista and Cashier', 'not-verified'), 37.735609, -122.458201, 3, ''],
-        [ locationData('single-job-page.html','images/company-logo-03.png',"King",'Restaurant General Manager', 'verified'), 37.745382, -122.500773, 4, ''],
-        [ locationData('single-job-page.html','images/company-logo-05.png',"Skyist",'International Marketing Coordinator', 'not-verified'), 37.762963, -122.388506, 1, ''],
-        [ locationData('single-job-page.html','images/company-logo-05.png',"Podous",'Construction Labourers', 'not-verified'), 37.801745, -122.409085, 6, ''],
-        [ locationData('single-job-page.html','images/company-logo-04.png',"Mates",'Administrative Assistant', 'not-verified'), 37.730511, -122.383679, 7, ''],
-        [ locationData('single-job-page.html','images/company-logo-06.png',"Trideo",'Human Resources Consultant', 'not-verified'), 37.750457, -122.478779, 8, ''],
-        [ locationData('single-job-page.html','images/company-logo-06.png',"Trideo",'International Marketing Specialist', 'not-verified'), 37.732810, -122.415951, 9, ''],
-        [ locationData('single-job-page.html','images/company-logo-02.png',"Coffee",'Terrain Cafe Barista', 'not-verified'), 37.733625, -122.378872, 10, ''],
-        [ locationData('#','images/company-logo-05.png',"Kinte",'Skilled Labourer', 'not-verified'), 37.723578, -122.457493, 11, ''],
-        [ locationData('single-job-page.html','images/company-logo-05.png',"Alilia",'Healthcare Claims Advisor', 'not-verified'), 37.751543, -122.418354, 12, '']
+        [ locationData('single-job-page.html','images/eq-2.jpg',"Equipements",'5,000', 'verified'), 35.829818, 10.62942803, 27, ''],
+        [ locationData('single-job-page.html','images/eq.jpg',"Fournitures médicales",'3,200', 'verified'), 35.82891335, 10.62873065, 28, ''],
+        [ locationData('single-job-page.html','images/eq-3.jpg',"Lits",'150', 'verified'), 35.82933088, 10.62723935, 29, ''],
+        [ locationData('single-job-page.html','images/eq-4.jpg',"Cadre medicaux",'600', 'verified'), 35.83075743, 10.62873065, 24, ''],
       ];
 
 
@@ -65,7 +57,7 @@
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: zoomLevel,
         scrollwheel: scrollEnabled,
-        center: new google.maps.LatLng(37.754929, -122.429416),
+        center: new google.maps.LatLng(35.829818,10.62942803),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         zoomControl: false,
         mapTypeControl: false,
@@ -76,7 +68,7 @@
         gestureHandling: 'cooperative',
 
         // Google Map Style
-        styles: [{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#747474"},{"lightness":"23"}]},{"featureType":"poi.attraction","elementType":"geometry.fill","stylers":[{"color":"#f38eb0"}]},{"featureType":"poi.government","elementType":"geometry.fill","stylers":[{"color":"#ced7db"}]},{"featureType":"poi.medical","elementType":"geometry.fill","stylers":[{"color":"#ffa5a8"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#c7e5c8"}]},{"featureType":"poi.place_of_worship","elementType":"geometry.fill","stylers":[{"color":"#d6cbc7"}]},{"featureType":"poi.school","elementType":"geometry.fill","stylers":[{"color":"#c4c9e8"}]},{"featureType":"poi.sports_complex","elementType":"geometry.fill","stylers":[{"color":"#b1eaf1"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":"100"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"},{"lightness":"100"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffd4a5"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffe9d2"}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"weight":"3.00"}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"weight":"0.30"}]},{"featureType":"road.local","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#747474"},{"lightness":"36"}]},{"featureType":"road.local","elementType":"labels.text.stroke","stylers":[{"color":"#e9e5dc"},{"lightness":"30"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":"100"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#d2e7f7"}]}]
+        styles: [{"featureType":"poi","elementType":"labels.text.fill","stylers":[,{"lightness":"100"}]},{"featureType":"poi.attraction","elementType":"geometry.fill","stylers":[{"color":"#f38eb0"}]},{"featureType":"poi.government","elementType":"geometry.fill","stylers":[{"color":"#ced7db"}]},{"featureType":"poi.medical","elementType":"geometry.fill","stylers":[{"color":"#ffa5a8"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#c7e5c8"}]},{"featureType":"poi.place_of_worship","elementType":"geometry.fill","stylers":[{"color":"#d6cbc7"}]},{"featureType":"poi.school","elementType":"geometry.fill","stylers":[{"color":"#c4c9e8"}]},{"featureType":"poi.sports_complex","elementType":"geometry.fill","stylers":[{"color":"#b1eaf1"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":"100"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"},{"lightness":"100"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffd4a5"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffe9d2"}]},{"featureType":"road.local","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"weight":"3.00"}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"weight":"0.30"}]},{"featureType":"road.local","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#747474"},{"lightness":"36"}]},{"featureType":"road.local","elementType":"labels.text.stroke","stylers":[{"color":"#e9e5dc"},{"lightness":"30"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":"100"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#d2e7f7"}]}]
 
       });
 
